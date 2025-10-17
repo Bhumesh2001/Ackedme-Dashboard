@@ -13,8 +13,6 @@ import { isAuthenticated } from './store/selectors/AuthSelectors';
 import './assets/vendor/swiper/css/swiper-bundle.min.css';
 import "./assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css";
 import "./assets/css/style.css";
-import "bootstrap-select/dist/css/bootstrap-select.min.css";
-
 
 const SignUp = lazy(() => import('./jsx/pages/Registration'));
 const Login = lazy(() => {
